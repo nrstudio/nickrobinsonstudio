@@ -4,9 +4,6 @@ import { Link, Switch } from "react-router-dom"
 import RoutesWithSubRoutes from './subroutes'
 import { list } from '../works/list'
 
-import worksStyle from '../styles/work.module.scss'
-
-
 function Works({ routes }) {
 	return (
 		<main className="container">

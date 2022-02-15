@@ -28,7 +28,7 @@ function Psychedeliscapes() {
 			</section>
 
 			{psychedeliscapes.map((psych) => {
-				const { title, jump, pic, left, right } = psych;
+				const { title, jump, pic } = psych;
 				return (
 					<section>
 						<article id={jump} className={workStyle.stackedwork}>

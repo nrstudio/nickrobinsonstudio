@@ -28,7 +28,7 @@ function ForestMagic() {
 			</section>
 
 			{forestmagic.map((forest) => {
-				const { title, jump, pic, left, right } = forest;
+				const { title, jump, pic } = forest;
 				return (
 					<section>
 						<article id={jump} className={workStyle.stackedwork}>

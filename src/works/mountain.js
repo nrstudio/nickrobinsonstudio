@@ -28,7 +28,7 @@ function MountainWaves() {
 			</section>
 
 			{mountainwaves.map((mountain) => {
-				const { title, jump, pic, left, right } = mountain;
+				const { title, jump, pic } = mountain;
 				return (
 					<section>
 						<article id={jump} className={workStyle.stackedwork}>

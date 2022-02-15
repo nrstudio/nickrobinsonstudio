@@ -4,7 +4,6 @@ import styled from 'styled-components'
 
 import '../styles/index.css'
 
-import logomark from "../img/logo.png"
 import logodark from '../img/logomark-dark.png'
 import logostackeddark from "../img/logo-stacked-dark.png"
 

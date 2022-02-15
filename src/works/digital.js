@@ -31,7 +31,7 @@ function DigitalArt() {
 			</section>
 
 			{digital.map((digital) => {
-				const { title, jump, pic, size, medium, year, desc, left, right } = digital;
+				const { title, jump, pic, size, year, desc, left, right } = digital;
 				return (
 					<section>
 						<article id={jump} className={workStyle.work}>
