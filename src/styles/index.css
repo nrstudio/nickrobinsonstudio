@@ -45,14 +45,14 @@ body {
 /* - -- Typography ----- - -- ---- --- ----- - */
 
 a {
-	color: var(--yellow);
+	font-weight:  700;
 	transition: 500ms color;
 	text-decoration: none;
 }
 
 a:hover,
 a:active {
-	color: white;
+	color: #666;
 }
 
 h1 {
