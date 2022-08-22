@@ -1,0 +1,858 @@
+:root {
+	--alt: #7f7854;
+	--home: #F4F3EE;
+	--dark: #333;
+}
+
+@import url("https://use.typekit.net/kbn7omj.css");
+
+*	{
+	margin: 0; padding: 0; box-sizing: border-box;
+}
+
+html {
+	 -webkit-font-smoothing: antialiased;
+ 	 -moz-osx-font-smoothing: grayscale;
+ 	 -ms-text-size-adjust: 100%;
+  	-webkit-text-size-adjust: 100%;
+  	box-sizing: border-box;
+  	overflow-y: scroll;
+  	scroll-behavior: smooth;
+}
+
+body {
+	font-family: masqualero, Helvetica, Arial, sans-serif;
+	font-size: 1.333rem;
+	line-height: 2.3rem;
+	color: #333;
+	margin: 0 auto;
+}
+
+.spacing1 { margin-bottom: 30px; }
+.spacing2 { margin-bottom: 60px; }
+.spacing3 { margin-bottom: 90px; }
+
+/* - -- Typography ----- - -- ---- --- ----- - */
+
+a {
+	color: var(--alt);
+	transition: 500ms color;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #333;
+}
+
+h1 {
+	font-family: 'masqualero', Helvetica, monospace;
+	font-size: 2.5rem;
+	line-height: 3.5rem;
+	letter-spacing: .05em;
+	/*text-transform:  uppercase;*/
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-family: 'new hero', monospace;
+	font-size: 2rem;
+	line-height: 3.5rem;
+	letter-spacing: .05em;
+	font-weight: 400;
+}
+
+h3 {
+	font-family: 'masqualero', monospace;
+	font-size: 1.5rem;
+	line-height: 2.5rem;
+	letter-spacing: .05em;
+	font-weight: 400;
+}
+
+h4 {
+	font-family: "masqualero", Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 1.2rem;
+	line-height: 2.4rem;
+	letter-spacing: .1em;
+}
+
+small {
+	font-size: 1rem;
+	font-family:  'new hero', helvetica, sans-serif;
+}
+
+.hero-text {
+	font-family:  "new hero", Helvetica, sans-serif;
+	font-size:  1.6rem;
+	font-weight:  700;
+}
+
+.reg small,
+.slim small {
+	text-transform: uppercase;
+}
+
+.work-card-info small,
+.home-card-info small {
+	letter-spacing: .1em;
+}
+
+/* ---- Header/Footer ----  --- - ----  --- -- --*/
+
+.header,
+.footer {
+	max-width: 1200px;
+	margin: 0 auto;
+	background: white;
+	
+	padding-top:  5px;
+	margin-bottom: 5px;
+	text-align:  center;
+}
+
+.footer {
+	margin-bottom: 30px;
+}
+
+.footer small {
+	font-size:  .75rem;
+}
+
+.topnav {
+	max-width: 1200px;
+	padding-top:  10px;
+	display: flex;
+	justify-content: center;
+	flex-flow: row nowrap;
+	list-style-type: none;
+	/* align-items: center; */
+	margin-bottom: -30px;
+}
+
+.footernav {
+	max-width: 1200px;
+	padding-top: 30px;
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row nowrap;
+	list-style-type: none;
+	margin-bottom: -20px;
+	/* align-items: center; */
+}
+
+.topnav a {
+	font-family: "new hero", monospace;
+	font-weight:  700;
+	font-size: .9rem;
+	text-transform:  uppercase;
+	letter-spacing: .1em;
+	color: #333;
+	margin-bottom: 15px;
+	text-decoration: none;
+}
+
+.nav-item-footer a {
+	font-family: "new hero", monospace;
+	font-weight:  700;
+	font-size: .9rem;
+	letter-spacing:  .1em;
+	color: #333;
+	text-decoration: none;
+	padding-top: 26px;
+	margin-left: 20px;
+}
+
+.nav-item,
+.nav-item-footersocial {
+	margin: 0px 15px;
+	padding-bottom: 20px;
+	transition:  color 700ms  ease-out;
+}
+
+.nav-item:hover,
+.nav-item:active,
+.nav-item-footer a:hover,
+.nav-item-footer a:active  {
+	color:  var(--alt);
+}
+
+.head-wrap,
+.foot-wrap {
+	max-width: 1200px;
+	display: flex;
+	/* align-items: center; */
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+
+.logo-wrap {
+	text-align: center;
+}
+
+.foot-social {
+	color: var(--dark);
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.nav-icons a,
+.foot-social a {
+	color: #222;
+	font-size: 1rem;
+	font-weight: 700;
+	text-decoration: none;
+}
+
+.socialicon {
+	width: 20px;
+	height: 20px;
+	margin-left: 20px;
+	margin-bottom: -5px;
+	color:  var(--alt);
+}
+
+.socialname {
+	margin-left: 10px;
+}
+
+.nav-icons {
+	margin-top: 5px;
+	color: var(--dark);
+}
+
+/* -- - - - Images ----- -- - - - ------ - -- */
+
+.shadow {
+	box-shadow: 0px 0px 15px 5px #ddd;
+}
+
+.heroimg {
+	width: 100%;
+	max-width: 500px;
+	opacity: .8;
+	border-radius: 20px;
+}
+
+.logotype {
+	width: 350px;
+	height: 25;
+	margin-top:  12px;
+}
+
+.logomark {
+	width: 65px;
+	height: auto;
+
+}
+
+.logomark-r {
+	width: 65px;
+	height: auto;
+	display: none;
+	margin-top:  10px;
+}
+
+.logo-overlay {
+	width: 100%;
+	max-width: 675px;
+	height: auto;
+	margin-left: -20px;
+}
+
+.splash-img {
+	margin-top: -60px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	max-width: 1200px;
+	height: auto;
+
+}
+
+.image {
+	width: 100%;
+	max-width: 600px;
+	
+}
+
+.imagewide {
+	width: 100%;
+	max-width: 690px;
+	
+}
+
+.imagewider {
+	width:  100%;
+	max-width:  800px;
+}
+
+.stackedimage {
+	width: 100%;
+	max-width: 600px;
+}
+
+/* - - --- - -- Divs --------- - - --- ---- */
+
+.view-container {
+	
+	background: var(--home);
+	margin: 0 auto;
+	padding-top:  30px;
+}
+
+.container {
+	background: #edebe6;
+	margin: 0 auto;
+	padding: 0px 0px;
+}
+
+.content-container {
+	max-width: 1200px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	margin: 30px auto;
+	color: #222;
+}
+
+.white-section {
+	color: #222;
+}
+
+.content {
+	max-width: 1200px;
+	padding-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.overlay {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.about-container {
+	max-width: 1200px;
+	background: #edebe6;
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items:  center;
+	margin: 0px auto;
+	margin-bottom: 60px;
+	padding-top: 60px;
+}
+
+.about-left {
+	width:  60%;
+	padding-top:  30px;
+}
+
+.about-right {
+	width:  37%;
+	padding-top:  30px;
+}
+
+.about-social {
+	color: var(--alt);
+	font-weight: 700;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+	margin-top: 10px;
+}
+
+.about-social a {
+	color: var(--alt);
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+.left,
+.right {
+	width: 65%;
+}
+
+.work {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	padding: 30px 0px;
+}
+
+/* Adjust width to work with the works images */
+.reg {
+	width: 50%;
+}
+
+.regmod {
+	width: 45%;
+}
+
+.slim {
+	width: 38%;
+}
+
+.slimmer {
+	width: 100%;
+}
+
+.landscape {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: column;
+	padding: 30px 0px;
+}
+
+.reg,
+.slim {
+		padding-left: 30px;
+	}
+
+/*.reg p,
+.slim p,
+.slimmer p {
+	margin-bottom: 10px;
+	margin-top: 30px;
+}*/
+
+
+
+
+/* ---- - -- -- Work Grid --- - - --- -- -- - -*/
+
+.work-card {
+	width: 30%;
+	position: relative;
+	margin: 30px 0px;
+	background: #222;
+}
+
+.work-card a {
+	text-transform: uppercase;
+	color: white;
+}
+
+.work-thumb {
+	opacity: 0.5;
+	width: 100%;
+	
+	margin-bottom: -12px;
+	box-shadow: 0px 0px 20px #ccc;
+
+	transition: opacity 0.5s ease-out;
+}
+
+.home-thumb {
+	opacity: 0.5;
+	width: 100%;
+	height: 100%;
+	margin-bottom: -12px;
+	box-shadow: 0px 0px 20px #ccc;
+
+	transition: opacity 0.5s ease-out;
+}
+
+.work-thumb:hover {
+	opacity: 1.0;
+}
+
+.home-thumb:hover {
+	opacity: 1.0;
+}
+
+.work-card-info h2 {
+	font-family:  "new hero", Helvetica, Arial, serif; 
+	text-transform:  none;
+	font-size:  1.7rem;
+	line-height:  2rem;
+	font-weight:  700;
+	margin-bottom: 1.5rem;
+}
+
+.work-card-info {
+    font-family:  "masqualero", Helvetica, Arial, serif;
+    font-weight:  700;
+    text-transform:  none;
+	position: absolute;
+	line-height: 1.5rem;
+	width: 100%;
+	top: 35%;
+	text-align: center;
+	mix-blend-mode: normal;
+	z-index: 2;
+	opacity: 1.0;
+
+	transition: opacity .5s ease-out;
+}
+
+.work-card:hover .work-card-info {
+	opacity:  0;
+}
+
+.work-mobile-info {
+	display: none;
+}
+
+/* -- - ---- Responsive --- - - -- -- - - - */
+
+@media only screen and (max-width: 1230px) {
+	.container,
+	.content,
+	.content-container
+{
+		padding-left: 30px;
+		padding-right:  30px;
+	}
+
+	.header,
+	.head-wrap  {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+@media only screen and (max-width:  1200px) {
+	.slimmer {
+		width:  100%;
+		padding-top: 30px;
+	}
+}
+
+@media only screen and (max-width: 1112px) {
+	
+	.footer,
+	.content-container,
+	.content,
+	.about-container,
+	.foot-wrap
+{
+		padding: 0px 30px;
+	}
+
+
+
+	.view-container {
+		padding-top:  30px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+
+	.work-card-info h2 {
+		font-size: 1.5rem;
+	}
+}
+
+@media only screen and (max-width: 949px) {
+	.work-card {
+		width: 48%;
+	}
+
+	.work-card-info h2 {
+		font-size:  2rem;
+	}
+
+
+	.work-card-info small {
+		font-size:  1.2rem;
+	}
+}
+
+@media only screen and (max-width:  915px) {
+	.logotype {
+		display:  none;
+	}
+
+	.logomark-r {
+		display:  block;
+	}
+
+	.about-container {
+		flex-flow: column wrap;
+	}
+
+	.about-left,
+	.about-right {
+		width:  100%;
+	}
+
+	.about-right {
+		text-align:  center;
+	}
+}
+
+@media only screen and (max-width: 880px) {
+	.work-card {
+		width: 48%;
+	}
+
+}
+
+@media only screen and (max-width: 805px) {
+	.left,
+	.right,
+	.reg,
+	.slim,
+	.slimmer {
+		width: 100%;
+		padding-top: 30px;
+		padding-left:  0px;
+	}
+
+	.work-card-info h2 {
+		font-size: 1.6rem;
+	}
+
+	.work,
+	.landscape {
+		flex-direction: column;
+		justify-content: center;
+		text-align: center;
+	}
+
+	.about-container .left,
+	.about-container .right {
+		width: 100%;
+	}
+
+	.about-social {
+		margin-top: 90px;
+		flex-flow: row nowrap;
+	}
+
+	.heroimg {
+		display: none;
+	}
+
+	.heroimgwrap {
+		text-align: center;
+		display: block;
+		position: absolute;
+		top: 150px;
+	}
+
+	.heroimgmobile {
+		opacity: .2;
+		width: 90%;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	
+	
+}
+
+@media only screen and (min-width: 700px) {
+	.mobiletitle {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.socialname {
+		display: none;
+	}
+
+	.footer p {
+		text-align:  center;
+	}
+
+	.foot-social {
+		justify-content: center;
+	}
+
+
+	.desktoptitle {
+		display: none;
+	}
+
+	.
+
+	.work-card-info h2  {
+		font-size: 1.5rem;
+	}
+
+	.work-card-info small  {
+		font-size: 1rem;
+	}
+}
+
+@media only screen and (max-width: 674px) {
+	.splash-img {
+		max-width: 500px;
+	}
+
+	.about-container {
+		background-image: url("../img/hero-image-bg.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+  		background-position: center;
+  		margin-top: -30px;
+  		margin-bottom: -30px;
+  		padding-top: 30px;
+  		padding-bottom: 30px;
+	}
+
+	.about-social {
+		flex-direction: column;
+		margin: 30px 0px;
+	}
+}
+
+@media only screen and (max-width: 607px) {
+	body {
+		font-size: 1.2rem;
+		line-height: 2rem;
+	} 
+
+	h1 {
+		font-size: 2.8rem;
+	}
+
+	.content-container {
+		flex-direction: column;
+	}
+
+	.work-card {
+		width: 100%;
+		
+	}
+
+	.work-card-info h2  {
+		font-size: 2.3rem;
+	}
+
+	.work-thumb {
+		    margin-bottom: -9px;
+	}
+}
+
+@media only screen and (max-width: 606px) {
+	.header,
+	.display {
+	 	display: none; 
+	}
+
+	.work-header {
+		text-align: center;
+	}
+
+	h1 {
+		margin-top: 30px;
+	}
+}
+
+@media only screen and (min-width: 560px) {
+/*	.reg p,
+	.slim p,
+	.slimmer p {
+		margin-bottom: 10px;
+		margin-top: 30px;
+	}*/
+}
+
+@media only screen and (max-width: 585px) {
+	.splash-img {
+		max-width: 450px;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	.splash-img {
+		max-width: 400px;
+	}
+
+	h2 {
+		font-size: 1.75rem;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.work-card-info h2 {
+		font-size: 2rem;
+	}
+
+	.work-card-info small {
+		font-size:  1.2rem;
+	}
+
+	.foot-wrap {
+		flex-flow: column nowrap;
+		justify-content: center;
+		align-items: center;
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+
+	.foot-social {
+		padding-top:  30px;
+	}
+
+	.foot-logo {
+		margin-bottom: 30px;
+	}
+
+	.nav-item-footer {
+	
+		margin-right: 15px;
+	}
+
+	.heroimgmobile {
+		width: 125%;
+	}
+
+	.nav-item-footer a:hover,
+	.nav-item-footer a:active  {
+		color: var(--alt);
+	}
+}
+
+@media only screen and (max-width: 450px) {
+
+
+	.heroimgmobile {
+		width: 200%;
+		margin-top: -75px;
+		margin-left: -150px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.work-card-info h2 {
+		font-size: 1.6rem;
+	}
+}
+
+@media only screen and (max-width: 380px) {
+
+
+	.work-card-info small {
+		font-size: .8rem;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	.splash-img {
+		max-width: 300px;
+	}
+
+	.nav-item-footer {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
