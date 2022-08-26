@@ -144,7 +144,7 @@ const MenuLinks = styled.nav `
 	visibility: ${ ({ openMenu }) => openMenu ? "visible" : "hidden" };
 
 	a {
-		font-family: 'new-order', monospace;
+		font-family: 'metallophile-sp8', monospace;
 		font-weight: 700;
 		letter-spacing: .05em;
 		text-decoration: none;
@@ -166,15 +166,17 @@ const MenuLinks = styled.nav `
 	}
 
 	li {
-		margin: 10px 0;
+		margin-top: 25px;
 	}
 
 	h4 {
-		font-family: 'new hero', Helvetica, sans-serif;
-		font-size: .8rem;
+		font-family: 'metallophile-sp8', Helvetica, sans-serif;
+		font-size: 1.25rem;
 		display: inline;
 		margin-left: 10px;
-		font-weight: 500;
+		letter-spacing: .025rem;
+		font-weight: 400;
+		text-transform: lowercase;
 	}
 `
 

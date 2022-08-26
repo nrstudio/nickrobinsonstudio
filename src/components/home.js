@@ -10,10 +10,10 @@ function Home() {
 		<div>
 			<main className="view-container">
 				<section className="content">
-					<article className="overlay">
+					
 						<img src={splash} alt="Intro splash artwork" className="splash-img donthover"/>
 						
-					</article>
+					
 				</section>
 			</main>
 

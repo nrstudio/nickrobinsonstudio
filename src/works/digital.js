@@ -5,7 +5,7 @@ import { digital } from './digitallist.js'
 
 import workStyle from '../styles/work.module.scss'
 
-import { FaTable, FaChevronUp } from 'react-icons/fa'
+import { FaEye, FaChevronUp } from 'react-icons/fa'
 
 function DigitalArt() {
 	return (
@@ -16,7 +16,7 @@ function DigitalArt() {
 					<h1>Digital Art</h1>
 					<div>
 						<Link to="/works" className={workStyle.btnback}>
-	  						<FaTable className={workStyle.arrowup}/> View All Artwork
+	  						<FaEye className={workStyle.arrowup}/> View All Artwork
 				  		</Link>
 				  	</div>
 				</article>

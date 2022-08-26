@@ -6,7 +6,8 @@ export const solidsmoke = [
 		"pic": "../img/solidsmoke/solid-smoke-1.jpg",
 		"alt": "Solid Smoke 1, Digital Art Series",
 		"left": "imagewider shadow ",
-		"right": "slimmer"
+		"right": "slimmer",
+		"orientation": "landscape"
 	},
 	{
 		"id": 2,
@@ -15,6 +16,7 @@ export const solidsmoke = [
 		"pic": "../img/solidsmoke/solid-smoke-2.jpg",
 		"alt": "Solid Smoke 2, Digital Art Series",
 		"left": "imagewide",
-		"right": "slim"
+		"right": "slim",
+		"orientation": "work"
 	},
 ]

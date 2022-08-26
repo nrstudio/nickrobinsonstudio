@@ -21,7 +21,8 @@ export const frontporch = [
 		"title": "",
 		"pic": "../img/frontporch/dark-remedy-2.jpg",
 		"alt": "Dark Remedy Beer Label Reverse Color",
-		"center": "imagewide"
+		"center": "imagewide",
+		"orientation": "landscape"
 	},
 	{
 		"id": 4,
@@ -29,7 +30,8 @@ export const frontporch = [
 		"title": "Devil Children Beer Label",
 		"pic": "../img/frontporch/devil-children-2.jpg",
 		"alt": "Devil Children Beer Can Label Artwork",
-		"center": "imagewide spacing1"		
+		"center": "imagewide spacing1",
+		"orientation": "landscape"		
 	},
 	{
 		"id": 5,

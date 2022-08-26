@@ -31,10 +31,10 @@ function SolidSmoke() {
 			</section>
 
 			{solidsmoke.map((solidsmoke) => {
-				const { title, jump, pic, alt, left, right } = solidsmoke;
+				const { title, jump, pic, alt, left, right, orientation } = solidsmoke;
 				return (
 					<section>
-						<article id={jump} className={workStyle.work}>
+						<article id={jump} className={orientation}>
 							
 							<div>
 								<img src={pic}
