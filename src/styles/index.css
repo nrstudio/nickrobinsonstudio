@@ -843,7 +843,15 @@ small {
 }
 
 @media only screen and (max-width: 450px) {
+	.content {
+		padding-left: 0;
+		padding-right:  0;
+	}
 
+	.content p {
+		padding-left:  30px;
+		padding-right: 30px;
+	}
 
 	.heroimgmobile {
 		width: 200%;

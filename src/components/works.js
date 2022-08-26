@@ -16,9 +16,9 @@ function Works({ routes }) {
 			</Switch>
 		
 			<section className="content">
-				<h1>Artworks</h1>
 				
-				<p>Please <a href="mailto:nickrobinsonart@gmail.com">get in touch with me</a> if you are interested
+				
+				<p><h1>Artworks</h1>Please <a href="mailto:nickrobinsonart@gmail.com">get in touch with me</a> if you are interested
 				   in buying any art, or interested in commissioning me!</p>
 			</section>
 
