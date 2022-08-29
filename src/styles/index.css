@@ -86,12 +86,21 @@ small {
 	letter-spacing: .04rem;
 }
 
-.hero-text {
+.hero-text,
+.site-title h1 {
 	font-family:  "masqualero", Helvetica, sans-serif;
 	font-size:  2.5rem;
 	font-weight:  700;
 	color:  #fff;
 	mix-blend-mode: difference;
+}
+
+.site-title {
+	position:  absolute;
+	margin: 12rem auto;
+	color: #ccc;
+	text-align: center;
+	width: 96%;
 }
 
 .reg small,
@@ -628,11 +637,26 @@ small {
 	}
 }
 
+
+
+@media only screen and (min-width:  880px) {
+	.site-title {
+		display: none;
+	}
+}
+
 @media only screen and (max-width: 880px) {
 	.work-card {
 		width: 48%;
 	}
 
+}
+
+@media only screen and (max-width:  830px) {
+	.site-title {
+		margin-top: 11rem;
+		margin-left:  -0.5rem;
+	}
 }
 
 @media only screen and (max-width: 805px) {
@@ -684,10 +708,22 @@ small {
 	}
 }
 
+@media only screen and (max-width:  775px) {
+	.site-title {
+		margin-top: 10rem;
+		margin-left: -.5rem;
+	}
+}
+
 @media only screen and (max-width: 720px) {
 	.nav-item {
 		margin-right:  0px;
 		padding-left:  15px;
+	}
+
+	.site-title {
+		margin-top: 9rem;
+		margin-left: -.5rem;
 	}
 }
 
@@ -698,6 +734,11 @@ small {
 }
 
 @media only screen and (max-width: 700px) {
+	.site-title {
+		margin-top: 8rem;
+		margin-left: -.5rem;
+	}
+
 	.socialname {
 		display: none;
 	}
@@ -777,6 +818,11 @@ small {
 	 	display: none; 
 	}
 
+	.site-title {
+		margin-top:  4rem;
+		margin-left:  -1rem;
+	}
+
 	.work-header {
 		text-align: center;
 	}
@@ -802,6 +848,13 @@ small {
 	}
 }
 
+@media only screen and (max-width:  550px) {
+	.site-title {
+		margin-top:  3rem;
+		margin-left:  -1rem;
+	}
+}
+
 @media only screen and (max-width: 500px) {
 	.work-card-info h2 {
 		font-size: 2rem;
@@ -809,6 +862,11 @@ small {
 
 	.work-card-info small {
 		font-size:  1.2rem;
+	}
+
+	.site-title {
+		font-size:  2rem;
+		margin-top:  2rem;
 	}
 
 	.foot-wrap {
@@ -842,7 +900,21 @@ small {
 	}
 }
 
+@media only screen and (max-width: 465px) {
+	.site-title {
+		margin-top: 0.5rem;
+	}
+
+	.site-title h1 {
+		line-height:  3rem;
+	}
+}
+
 @media only screen and (max-width: 450px) {
+.site-title {
+	margin-left:  1rem;
+}
+
 	.content {
 		padding-left: 0;
 		padding-right:  0;
@@ -864,6 +936,15 @@ small {
 	.work-card-info h2 {
 		font-size: 1.6rem;
 	}
+
+	.site-title h1 {
+		font-size:  2rem;
+		line-height: 2.7rem;
+	}
+
+	.site-title {
+		margin-top: 2rem;
+	}
 }
 
 @media only screen and (max-width: 380px) {
@@ -871,6 +952,12 @@ small {
 
 	.work-card-info small {
 		font-size: .8rem;
+	}
+}
+
+@media only screen and (max-width:  375px) {
+	.site-title {
+		margin-top:  0;
 	}
 }
 

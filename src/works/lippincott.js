@@ -43,7 +43,7 @@ function Lippincott() {
 									 className={center}
 								/>
 							</div>
-							<div>
+							<div className={workStyle.workdetails}>
 								<h2>{title}</h2>
 							</div>
 						</article>
