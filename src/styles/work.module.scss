@@ -43,7 +43,8 @@
 
 		@media only screen and (max-width: 606px) {
 			justify-content: center;
-			margin-bottom: 30px
+			margin-bottom: 30px;
+			padding: 0 30px;
 		}
 	}
 
@@ -92,12 +93,12 @@
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
-	padding: 30px 0px;
+	// padding: 30px 0px;
 
 	@media only screen and (max-width: 805px) {
 		flex-direction: column;
 		justify-content: center;
-		text-align: center;
+		// text-align: center;
 	}
 }
 
@@ -114,9 +115,18 @@
 	}
 }
 
- .workdetails
- {
- 	padding: 0px 15px;
+ .workdetails {
+ 	padding: 0px 30px;
+ 	text-align: center;
+ }
+
+ .workdetails p {
+ 	padding-top: 10px;
+ }
+
+ .workdetails h2 {
+ 	text-transform: uppercase;
+ 	font-size: 1.5rem;
  }
 
 .details {
@@ -124,11 +134,11 @@
 	flex-flow: column nowrap;
 	justify-content: space-around;
 
-	@media only screen and (max-width: 700px) {
-		margin-top: 30px;
-		flex-flow: row nowrap;
+	// @media only screen and (max-width: 700px) {
+	// 	margin-top: 30px;
+	// 	flex-flow: row nowrap;
 		
-	}
+	// }
 
 	@media only screen and (max-width: 560px) {
 		flex-flow: column nowrap;
@@ -161,7 +171,6 @@
 
 .backwrap {
 	max-width: 1200px;
-	margin: 20px 0px;
 	display: flex;
 	justify-content: space-between;
 	flex-flow: row nowrap;
@@ -186,9 +195,13 @@
 .topwrap {
 	max-width: 1092px;
 	margin: 30px 0px;
-	padding-bottom: 60px;
+	padding-bottom: 30px;
 	border-bottom: 1px solid #ddd;
 	text-align: right;
+
+	@media only screen and (max-width: 465px) {
+		border: 0;
+	}
 }
 
 .btnback {

@@ -42,8 +42,8 @@ function FrontPorch() {
 									 className={center}
 								/>
 							</div>
-							<div>
-								<h2 className="spacing2">{title}</h2>
+							<div className={workStyle.workdetails}>
+								<h2>{title}</h2>
 							</div>
 						</article>
 						<article className={` ${workStyle.topwrap} `}>

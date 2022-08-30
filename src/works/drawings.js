@@ -38,7 +38,6 @@ function Drawings() {
 					<section>
 						<article id={jump} className={orientation}>
 							<div>
-								<h2 className="spacing2 mobiletitle">{title}</h2>
 								<img src={pic}
 									 alt={alt}
 									 className={left}
@@ -46,6 +45,7 @@ function Drawings() {
 							</div>
 							<div className={right}>
 								<div className={workStyle.details}>
+									<h2 className="spacing1 mobiletitle">{title}</h2>
 									<h2 className="spacing1 desktoptitle">{title}</h2>
 									<h4>{size}</h4>
 									<h4>{year}</h4>

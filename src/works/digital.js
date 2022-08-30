@@ -39,7 +39,7 @@ function DigitalArt() {
 					<section>
 						<article id={jump} className={workStyle.work}>
 							<div className={workStyle.left}>
-								<h2 className="spacing2 mobiletitle">{title}</h2>
+								
 								<img src={pic}
 									 alt={alt}
 									 className={left}
@@ -47,7 +47,8 @@ function DigitalArt() {
 							</div>
 							<div className={right}>
 								<h2 className="desktoptitle">{title}</h2>
-							
+								<h2 className="spacing1 mobiletitle">{title}</h2>
+								
 							</div>
 						</article>
 						<article className={` ${workStyle.topwrap} `}>

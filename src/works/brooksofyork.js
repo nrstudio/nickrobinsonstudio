@@ -31,7 +31,7 @@ function BrooksOfYork() {
 			</section>
 
 			{brooksofyork.map((brooksofyork) => {
-				const { title, jump, pic, alt, center } = brooksofyork;
+				const { title, desc, jump, pic, alt, center } = brooksofyork;
 				return (
 					<section>
 						<article id={jump} className={workStyle.stackedwork}>
@@ -43,7 +43,8 @@ function BrooksOfYork() {
 								/>
 							</div>
 							<div className={workStyle.workdetails}>
-								<h2 className="spacing2">{title}</h2>
+								<h2>{title}</h2>
+								<p>{desc}</p>
 							</div>
 						</article>
 						<article className={` ${workStyle.topwrap} `}>

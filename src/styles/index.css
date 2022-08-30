@@ -58,7 +58,7 @@ h1 {
 h2 {
 	font-family: metallophile-sp8, monospace;
 	font-size: 2rem;
-	line-height: 3.5rem;
+	line-height: 2.5rem;
 	font-weight: 400;
 	letter-spacing: .04rem;
 }
@@ -177,7 +177,7 @@ small {
 	color: #333;
 	text-decoration: none;
 	padding-top: 26px;
-	margin-left: 20px;
+	margin: 0 10px;
 }
 
 .nav-item,
@@ -334,6 +334,8 @@ small {
 	background: var(--home);
 	margin: 0 auto;
 	padding-top:  30px;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
 }
 
 .container {
@@ -358,7 +360,6 @@ small {
 
 .content {
 	max-width: 1200px;
-	padding-top: 30px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -401,6 +402,7 @@ small {
 .about-right {
 	margin-bottom:  2rem;
 	padding:  2rem 0px;
+	padding-bottom: 4rem;
 }
 
 .about-social {
@@ -432,7 +434,7 @@ small {
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
-	padding: 30px 0px;
+	/*padding: 30px 0px;*/
 }
 
 /* Adjust width to work with the works images */
@@ -450,13 +452,14 @@ small {
 
 .slimmer {
 	width: 100%;
+	padding-left:  30px;
 }
 
 .landscape {
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: column;
-	padding: 30px 0px;
+	/*padding: 30px 0px;*/
 }
 
 .reg,
@@ -521,9 +524,10 @@ small {
 	text-transform:  none;
 	font-size:  1.7rem;
 	line-height:  2rem;
-	font-weight:  700;
+	font-weight: 400;
 	margin-bottom: 1.5rem;
 	letter-spacing: .04rem;
+	text-transform: uppercase;
 }
 
 .work-card-info {
@@ -572,7 +576,7 @@ small {
 @media only screen and (max-width:  1200px) {
 	.slimmer {
 		width:  100%;
-		padding-top: 30px;
+		/*padding-top: 30px;*/
 	}
 }
 
@@ -666,7 +670,7 @@ small {
 	.slim,
 	.slimmer {
 		width: 100%;
-		padding-top: 30px;
+	/*	padding-top: 30px;*/
 		padding-left:  0px;
 	}
 
@@ -678,7 +682,7 @@ small {
 	.landscape {
 		flex-direction: column;
 		justify-content: center;
-		text-align: center;
+		/*text-align: center;*/
 	}
 
 	.about-container .left,
@@ -825,6 +829,7 @@ small {
 
 	.work-header {
 		text-align: center;
+		padding-bottom:  30px;
 	}
 
 	h1 {
@@ -886,8 +891,7 @@ small {
 	}
 
 	.nav-item-footer {
-	
-		margin-right: 15px;
+		margin: 0 5px;
 	}
 
 	.heroimgmobile {
@@ -907,6 +911,18 @@ small {
 
 	.site-title h1 {
 		line-height:  3rem;
+	}
+
+	.slimmer,
+	.slim,
+	.reg {
+		padding:  10px 30px;
+		text-align:  center;
+	}
+
+	.slim h2, .slimmer h2, .reg h2 {
+		font-size:  1.5rem;
+		text-transform:  uppercase;
 	}
 }
 
@@ -962,10 +978,8 @@ small {
 }
 
 @media only screen and (max-width: 360px) {
-
-
-	.nav-item-footer {
+	/*.nav-item-footer {
 		margin-left: 10px;
 		margin-right: 10px;
-	}
+	}*/
 }

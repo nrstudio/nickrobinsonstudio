@@ -10,7 +10,8 @@ export const brooksofyork = [
 	{
 		"id": 2,
 		"jump": "brooksofyork1",
-		"title": "I Got The Moon - Digital Single Art",
+		"title": "'I Got The Moon'",
+		"desc": "Digital Single Art",
 		"pic": "../img/brooksofyork/igotthemoon.jpg",
 		"alt": "I got the moon, digital single artwork",
 		"center": "imagewide spacing1"
@@ -18,7 +19,8 @@ export const brooksofyork = [
 	{
 		"id": 3,
 		"jump": "brooksofyork2",
-		"title": "To Giants (Light Show Remix) - Digital Single Art",
+		"title": "'To Giants (Light Show Remix)'",
+		"desc": "Digital Single Art",
 		"pic": "../img/brooksofyork/to-giants.jpg",
 		"alt": "To giants light show remix, Digital Single Artwork",
 		"center": "imagewide spacing1"

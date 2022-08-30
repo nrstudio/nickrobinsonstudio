@@ -19,7 +19,8 @@ export const widewaters = [
 	{
 		"id": 3,
 		"jump": "widewaters1",
-		"title": "Cabin In The Woods, Pt. 1 - Digital Album Art",
+		"title": "'Cabin In The Woods'",
+		"desc": "Digital Album Art",
 		"pic": "../img/widewaters/cabin.jpg",
 		"alt": "Cabin in the Woods Part 1, Digital Album Art",
 		"center": "imagewide spacing1"
@@ -27,7 +28,8 @@ export const widewaters = [
 	{
 		"id": 4,
 		"jump": "widewaters2",
-		"title": "2021 - Digital Album Art",
+		"title": "'2021'",
+		"desc": "Digital Album Art",
 		"pic": "../img/widewaters/2021.jpg",
 		"alt": "2021, Digital Single Art",
 		"center": "imagewide spacing1"

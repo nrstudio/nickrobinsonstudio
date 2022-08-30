@@ -30,7 +30,7 @@ function WideWaters() {
 			</section>
 
 			{widewaters.map((widewaters) => {
-				const { title, jump, pic, alt, center } = widewaters;
+				const { title, desc, jump, pic, alt, center } = widewaters;
 				return (
 					<section>
 						<article id={jump} className={workStyle.stackedwork}>
@@ -42,7 +42,8 @@ function WideWaters() {
 								/>
 							</div>
 							<div className={workStyle.workdetails}>
-								<h2 className="spacing1">{title}</h2>
+								<h2>{title}</h2>
+								<p>{desc}</p>
 							</div>
 						</article>
 						<article className={` ${workStyle.topwrap} `}>

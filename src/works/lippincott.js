@@ -32,7 +32,7 @@ function Lippincott() {
 			</section>
 
 			{lippincott.map((lippincott) => {
-				const { title, jump, pic, alt, center } = lippincott;
+				const { title, desc, jump, pic, alt, center } = lippincott;
 				return (
 					<section>
 						<article id={jump} className={workStyle.stackedwork}>
@@ -45,6 +45,7 @@ function Lippincott() {
 							</div>
 							<div className={workStyle.workdetails}>
 								<h2>{title}</h2>
+								<p>{desc}</p>
 							</div>
 						</article>
 						<article className={` ${workStyle.topwrap} `}>
