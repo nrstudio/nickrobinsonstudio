@@ -8,7 +8,7 @@ import splash from '../img/splash/dual.jpg'
 function Home() {
 	return (
 		<div>
-			<main className="view-container">
+			<main className="view-container spacing-top">
 				<section className="content">
 						<div className="site-title"><h1>Nick Robinson Studio.</h1></div>
 						<img src={splash} alt="Intro splash artwork" className="splash-img donthover"/>
